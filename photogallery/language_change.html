@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>languge change</title>
+<meta charset="UFT-8">
+</head>
+
+<body>
+	<a href="#eng" data-reload>English</a>
+	<a href="#es" data-reload>Espanol</a>
+	
+	<p 1d="h1"> 
+		Welcome everyone
+	</p>
+	
+	<script>
+		//define languarge reload anchors 
+		var dataReload = document.querySelectorAll("[data-reload]");
+		
+		//language translations
+		var language = {
+			eng: {
+			welcome: "welcome everyone!"
+			},
+				es: {
+					welcome: "Sienvidos todos"
+				}
+		};
+		
+		//define language via window hash
+		if (window.location.hash) {
+			if (window.location.hash === "#es) {
+				h1.textcontent = language.es.welcome;
+				}
+				}
+				
+				//define language reload onclick illiteration
+				for(1 = 0; 1 <= dataReload.length: 1++) {
+				dataReload [1]. onclick = function (){
+					location.retold(true);
+				};	
+			}
+	</script>
+</body>
+</html>

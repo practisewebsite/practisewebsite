@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0px;
+
+	padding 0px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+}
+h1{
+    color: #000000;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-size: 40px;
+    font-weight: 800px;
+    line-height: 70px;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.Gallery{
+    align-content: center;
+    margin: 10px 110px;
+    text-align: center;
+}
+
+.Gallery img{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(80%);
+	transition: 1s;
+	
+}
+
+.Gallery img:hover{
+	
+	filter: grayscale(0);
+	transform: scale(1:1);
+}
+nav  {
+    background-color: #FDFDFD;
+    text-align: center;
+}
+footer {
+	background-color: #FDFDFD;
+	line-height: 10px;
+}
